@@ -1,0 +1,19 @@
+Quite a long time ago, there lived two talking birds with their parents.\nOne day when their parents were away, a villager who generally had an eye on those\n
+special birds caught them and took them away.\nOne of the birds got away from the trap and looked for his parents.\nThe bird, at last, arrived at a hermitage where it was welcomed and had some food. He lived joyfully.\nAn explorer once ran over the other bird that the villager caught. He talked very rudely to him.\nHe was shocked to see a talking bird but at the same time was angry with his way of behaving. The\nexplorer visited the hermitage and recognised a similar talking bird, yet this\nbird talked respectfully and welcomed him to remain there.
+
+
+
+int bytes_read;
+int fd;
+static char *line;
+char buffer[BUFFER_SIZE + 1];
+
+
+once:
+line = ft_calloc(1, 1); // line[0] = '\0'
+
+bytes_read = 1
+while (bytes_read > 0 && "no \n in line"):
+	bytes_read = read(fd, buffer, BUFFER_SIZE);
+	buffer[byte_read] = '\0';
+	line = ft_gnl_strjoin(line, buffer);
